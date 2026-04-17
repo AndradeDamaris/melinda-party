@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.big-box{
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffe2bd;
+}
+
+.mom-box{
+    display: flex;
+    align-items: center;
+    padding-top: 22rem;
+    flex-direction: column;
+    position: relative;
+}
+
+.top{
+    /* height: 5rem;
+    width: 22rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+ 
+}
+
+.top-closed{
+   top: 50%;
+
+}
+.top-open{
+    top: 20%;
+    transform: rotate(-10deg);
+    transition: tranform, .3s ease;
+}
+
+.top-laco{
+    display: flex;
+    align-items: end;
+
+}
+
+.top-laco .laco{
+    background-color: #f7ef8a;
+    width: 8rem;
+    height: 3rem;
+}
+
+.left{
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 20%;
+}
+
+.right{
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 20%;
+}
+
+.top-laco .meio-laco{
+    width: 2rem;
+    height: 2rem;
+    background-color: #fc6f92;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+
+.tampa{
+    height: 3rem;
+    width: 20rem;
+    background-color: #ff9aab;
+
+}
+
+.box{
+    height: 10rem;
+    width: 18rem;
+    background-color: #e58999;
+    position: relative;
+    outline: none;
+    border: none;
+}
+
+.box .fita{
+    width: 2rem;
+    height: 10rem;
+    background-color: #fc6f92;
+    position: absolute;
+    right: 44%;
+    top: 0;
+}
+
+.box .fita2{
+    width: 18rem;
+    height: 2rem;
+    background-color: #fc6f92;
+    position: absolute;
+    top: 40%;
+}
+
+.box .foto{
+    width: 17rem;
+    height: 10rem;
+    background-color: red;
+    margin: auto;
+}
